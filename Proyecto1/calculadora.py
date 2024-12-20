@@ -25,7 +25,5 @@ while opcion != 5:
         print("Adiós")
     else:
         print("Opción no válida, intenta de nuevo")
-    print(calculadora)
-    opcion = int(input("Opción: "))
-    
+ 
     break
