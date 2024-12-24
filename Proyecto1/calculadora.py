@@ -6,8 +6,8 @@ opcion = int(input("Opción: "))
 
 while opcion != 5:
     if opcion == 1:
-        num1 = int(input("Número 1: "))
-        num2 = int(input("Número 2: "))
+        num1 = float(input("Número 1: "))
+        num2 = float(input("Número 2: "))
         print(f"Resultado: {num1 + num2}")
     elif opcion == 2:
         num1 = int(input("Número 1: "))
