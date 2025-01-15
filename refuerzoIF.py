@@ -7,8 +7,11 @@ print("El valor 2 es: ", num2, "su tipo es: ", type(num2))
 print("La suma de los dos valores es: ", res, "su tipo es: ", type(res))
 
 if res == 25:
-    print("El resultado de la suma es igual a 25")
-elif res > 25:
-        print("El resultado de la suma es mayor a 25")
+    if type(res) == float():
+        print("El resultado es un float")
+        if type(res) != float():
+            print("El resultado no es un float")
+    else: 
+         print("fin")
 else:
-        print("El resultado de la suma es menor a 25")
+        print("El resultado no es 25")
