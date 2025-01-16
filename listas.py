@@ -11,6 +11,6 @@ for  i, e in enumerate(persona):
     print(f"Posición {i}: {e}")
 
 print("*********************")
-persona.append()
+
 for i, e in enumerate(persona):
     print(f"Posición {i}: {e}")

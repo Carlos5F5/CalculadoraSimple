@@ -15,3 +15,7 @@ num2 = int(input("Ingrega otro número: "))
 print(f"Resultado: {num1 + num2}")	
 
 
+
+
+
+

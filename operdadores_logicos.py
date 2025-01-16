@@ -29,9 +29,12 @@ print(fruta1 == fruta2)
 print("Contenido original: ",frutas)
 frutas.append("naranja")
 print("Usando el metodo append: ",frutas)
+
 frutas.insert(2, "banano")
 print("Usando el metodo insert: ",frutas)
+
 frutas.remove("naranja")
 print("Usando el metodo remove: ",frutas)
+
 frutas.extend(["papaya", "piña"])
 print("Usando el metodo extend: ",frutas)
