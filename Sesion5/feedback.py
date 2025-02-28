@@ -29,15 +29,13 @@ try:
         listaLibros.append(libro)
         print("El libro: " , libro , " ha sido agregado")
     elif opcion == 3:
-        print(listaLibros)
         libro = input("Ingrese el nombre del libro a actualizar: ")
         if libro in listaLibros:
             nuevoLibro = input("Ingrese el nuevo nombre del libro: ")
             listaLibros[listaLibros.index(libro)] = nuevoLibro
             listaLibros[1] = nuevoLibro
-            print("El libro: " , libro , " ha sido actualizado por: " , nuevoLibro, "exitosamente \n")
+            print("El libro: " , libro , " ha sido actualizado a: " , nuevoLibro)
     elif opcion == 4:
-        print(listaLibros)
         libro = input("Ingrese el nombre del libro a eliminar: ")
         if libro in listaLibros:
             listaLibros.remove(libro)
@@ -45,9 +43,8 @@ try:
             print("Lista de libros actualizada: " , listaLibros)
     elif opcion == 5:
         print("Gracias por utilizar el sistema")
-
     else:
-        print("Opcuón no válida, intente nuevamente")     
+        print("Opción no válida, intente nuevamente")     
 except ValueError:
     print("Error, ingrese un número entero")
 
