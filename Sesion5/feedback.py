@@ -47,8 +47,9 @@ while True:
                 print("Lista de libros actualizada: " , listaLibros)
         elif opcion == 5:
             print("Gracias por utilizar el sistema")
+            break
         else:
             print("Opción no válida, intente nuevamente")     
-    except ValueError:
+    except ValueError:   
         print("Error, ingrese un número entero")
 
