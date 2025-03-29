@@ -1,6 +1,6 @@
 #Trabajando con archivos
 try:
-	archivo = open(r".\ejemploarchivos.txt", "r")
+	archivo = open(r"C:\DocumentosDeRAIZ\Ingenierìa\LenguajesProgramación\Python\PythonDeveloper\Sesion6\ejemploarchivos.txt", "r")
 	contenido = archivo.read()
 	archivo.close()
 	print(contenido)
