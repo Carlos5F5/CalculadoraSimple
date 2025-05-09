@@ -1,5 +1,5 @@
 try:
-    archivo = open(r"C:\DocumentosDeRAIZ\Ingenierìa\LenguajesProgramación\Python\PythonDeveloper\Sesion7\archivos7.txt", "r")
+    archivo = open(r"data_estudiante.xlsx", "r")
     print(archivo.read())
 except FileNotFoundError:
     print("El archivo no existe")
