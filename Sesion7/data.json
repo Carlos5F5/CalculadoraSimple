@@ -1,0 +1,23 @@
+{
+    "Nombre":[
+       "Carlos",
+       "Johana",
+       "Rocio"
+    ],
+    "Apellido":[
+        "Franco",
+        "Poveda",
+        "Satian"
+    ],
+    "Edad":[
+       20,
+       18,
+       44
+    ],
+    "Profesion" : [
+         "Ingeniero",
+         "Abogado",
+         "Medico"
+    ]
+ }
+   

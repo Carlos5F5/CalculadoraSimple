@@ -19,6 +19,25 @@ def leer_Excel(file):
     except Exception as e:
         print(f"Error: {e}")
 
+def escribir_Excel(file):
+    try:
+        #Leer el archivo de Excel
+        df = pd.read_excel(file)
+
+        #Capturar  nuevos datos
+        datosEstu = []
+        nombre = input("Ingrese el nombre: ")
+        edad = int(input("Ingrese la edad: "))
+        profesion = input("Ingrese la profesion: ")
+
+        datosEstu.append(nombre)
+        datosEstu.append(edad)
+        datosEstu.append(profesion)
+
+        nuevaFila = pd.DataFrame
+    except Exception as e:
+        print(f"Error: {e}")
+
 
 datos = leer_Excel(ruta)
 print(datos)
