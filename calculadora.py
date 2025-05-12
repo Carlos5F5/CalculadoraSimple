@@ -58,5 +58,5 @@ def repetiropciones():
             print ("Por favor ingrese una opcion válida")
         break    
 
-
+repetiropciones()
 # Fin del programa
